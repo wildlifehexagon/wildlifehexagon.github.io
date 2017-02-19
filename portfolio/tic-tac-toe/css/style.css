@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hind', sans-serif;
+  color: #042A2D;
+  font-size: 18pt;
+  margin-top: 20px;
+  background-color: #FFD77E;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.board {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.box {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border: 3px solid #0291AC;
+  float: left;
+  font-size: 50pt;
+}
+
+.start {
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 3px solid #1F5E64;
+  background-color: #0291AC;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.start:hover {
+  background-color: #7BE0F3;
+  transition: .2s;
+  border: 1px solid #1F5E64;
+  color: #042A2D;
+  font-weight: bold;
+}
+
+.restart {
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 3px solid #1F5E64;
+  background-color: #0291AC;
+  color: #fff;
+  margin-bottom: 25px;
+  display: none;
+}
+
+.restart:hover {
+  background-color: #7BE0F3;
+  transition: .2s;
+  border: 1px solid #1F5E64;
+  color: #042A2D;
+  font-weight: bold;
+}
+
+#turnX {
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 3px solid #1F5E64;
+  background-color: #0291AC;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+#turnX:hover {
+  background-color: #7BE0F3;
+  transition: .2s;
+  border: 1px solid #1F5E64;
+  color: #042A2D;
+  font-weight: bold;
+}
+
+#turnO {
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 3px solid #1F5E64;
+  background-color: #0291AC;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+#turnO:hover {
+  background-color: #7BE0F3;
+  transition: .2s;
+  border: 1px solid #1F5E64;
+  color: #042A2D;
+  font-weight: bold;
+}
+
+.selection {
+  margin-bottom: 10px;
+  display: none;
+}
+
+.result {
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.topleft {
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.topmid {
+  border-top: 0px;
+}
+
+.topright {
+  border-top: 0px;
+  border-right: 0px;
+}
+
+.midleft {
+  border-left: 0px;
+}
+
+.midright {
+  border-right: 0px;
+}
+
+.bottomleft {
+  border-left: 0px;
+  border-bottom: 0px;
+}
+
+.bottommid {
+  border-bottom: 0px;
+}
+
+.bottomright {
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.footer {
+  margin: 10px;
+  font-size: 12pt;
+}
+
+.footer a:visited {
+  color: #0291AC;
+}
+
+.footer a:link {
+  color: #0291AC;
+}

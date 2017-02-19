@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wikipedia Search</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <img src="images/wiki-logo.png" class="img-responsive center-block">
+        <h1>Wikipedia Search</h1>
+        <input type="search" placeholder="Search for something on Wikipedia" id="searchTerm" size="45"></input><br /><br />
+        <button class="button btn-primary" id="search">Search</button>
+        <button class="button btn-primary"><a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Page</a></button>
+        <div id="output"></div>
+      </div>
+      <footer class="text-center footer">
+        <p>Written and coded by <a href="http://www.freecodecamp.com/wildlifehexagon" target="_blank">wildlifehexagon</a> for <a href="http://www.freecodecamp.com/" target="_blank">Free Code Camp</a>.</p>
+      </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

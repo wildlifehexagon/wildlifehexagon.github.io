@@ -1,0 +1,48 @@
+body {
+  font-family: 'Crimson Text', serif;
+  margin-top: 40px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.well a:link {
+  color: #006622;
+}
+
+.well a:visited {
+  color: white;
+}
+
+#output {
+  color: black;
+}
+
+.well {
+  text-align: left;
+  border: 1px solid #0094AE;
+  border-radius: 5px;
+  border-left: 5px solid #0094AE;
+  border-right: 5px solid #0094AE;
+  margin: 10px;
+  background-color: #99c2ff;
+}
+
+.footer {
+  margin: 10px;
+}
+
+.footer a:visited {
+  color: #006622;
+}
+
+.footer a:link {
+  color: #006622;
+}

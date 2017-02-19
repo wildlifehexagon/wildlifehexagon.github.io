@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Local Weather App</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+<div class="container-fluid text-center">
+  <div class="jumbotron">
+    <div class="row">
+      <h1>Local Weather App</h1>
+      <h2 id="city"></h2>
+      <h3 id="weatherType"></h3>
+      <canvas id="animated-icon" width="128" height="128"></canvas>
+      <h2 id="fahrenheit"></h2>
+      <button class="btn btn-warning active" id="tempF">Fahrenheit</button>
+      <button class="btn btn-warning" id="tempC">Celsius</button>
+    </div>
+    <footer class="text-center footer">
+      <hr>
+      <p>Written and coded by <a href="http://www.freecodecamp.com/wildlifehexagon" target="_blank" class="footer-link">wildlifehexagon</a> for <a href="http://www.freecodecamp.com/" target="_blank" class="footer-link">Free Code Camp</a>.<br />
+        Skycons created by <a href="https://darkskyapp.github.io/skycons/" target="_blank" class="footer-link">The Dark Sky Company.</a></p>
+</footer>
+  </div>
+</div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap compiled plugins -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- Skycons -->
+    <script src="scripts/skycons.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
