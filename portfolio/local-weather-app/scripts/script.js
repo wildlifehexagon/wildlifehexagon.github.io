@@ -6,13 +6,13 @@ $(document).ready(function() {
       skycons.play();
 
       // API request to gather geographic data
-      $.getJSON("http://freegeoip.net/json/?callback=?", function(geo) {
-        var lat = geo.latitude;
-        var lon = geo.longitude;
+      $.getJSON("http://ip-api.com/json/?callback=?", function(geo) {
+        var lat = geo.lat;
+        var lon = geo.lon;
         var city = geo.city;
-        var region = geo.region_name;
-        var country = geo.country_name;
-        var countryCode = geo.country_code;
+        var region = geo.regionName;
+        var country = geo.country;
+        var countryCode = geo.countryCode;
         var api = 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + '&appid=6b86f165a6983f257b55ea5fd1c205d4';
 
         // API request to get weather information from OpenWeatherMap

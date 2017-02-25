@@ -1,95 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>Eric Hartline - Web Developer</title>
-
-    <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/daec35af1e.css">
+    <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/template.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body id="page-top">
+<body id="page-top" class="index">
+    <!-- Navigation -->
 
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Eric Hartline</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
     <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Eric Hartline</h1>
-                <h3>Web Developer</h3>
-                <hr>
-
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box">
-                                <i class="fa fa-4x fa-linkedin-square text-primary sr-icons"></i>
-                                <h3><a href="https://www.linkedin.com/in/erichartline" target="_blank">LinkedIn</a></h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box">
-                                <i class="fa fa-4x fa-twitter-square text-primary sr-icons"></i>
-                                <h3><a href="https://twitter.com/wildlifehexagon" target="_blank">Twitter</a></h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box">
-                                <i class="fa fa-4x fa-github text-primary sr-icons"></i>
-                                <h3><a href="https://github.com/wildlifehexagon" target="_blank">GitHub</a></h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box">
-                                <i class="fa fa-4x fa-fire text-primary sr-icons"></i>
-                                <h3><a href="http://www.freecodecamp.com/wildlifehexagon
-" target="_blank">Free Code Camp</a></h3>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="img/eric-iceland.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                  <div class="intro-text">
+                      <span class="name">Eric Hartline</span>
+                      <hr>
+                      <span class="skills">Web Developer</span><br />
+                      <span class="skills">Chicago, IL</span><br />
+                      <span><ul class="list-inline">
+                          <li>
+                              <a href="https://github.com/wildlifehexagon" target="_blank" class="btn-social btn-outline"><i class="fa fa-github" aria-hidden="true"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://www.linkedin.com/in/erichartline" target="_blank" class="btn-social btn-outline"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://twitter.com/wildlifehexagon" target="_blank" class="btn-social btn-outline"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://www.freecodecamp.com/wildlifehexagon" target="_blank" class="btn-social btn-outline"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+                          </li>
+                          <li>
+                              <a href="mailto:hartline.eric@gmail.com" class="btn-social btn-outline"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                          </li>
+                      </ul></span>
+                  </div>
+                </div>
+                </div>
             </div>
         </div>
     </header>
-	
-    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- About Section -->
+
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Me</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row max">
+                <div class="col-sm-4 text-center">
+                    <div class="desc">
+                        <div class="icons"><i class="fa fa-user"></i></div>
+                        <p>I am a web developer with a passion for building both professional and personal projects.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <div class="desc">
+                        <div class="icons"><i class="fa fa-university" aria-hidden="true"></i></div>
+                        <p>I never get tired of learning new skills, and I am constantly seeking out new classes, documents and material to further improve my knowledge. </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <div class="desc">
+                        <div class="icons"><i class="fa fa-film" aria-hidden="true"></i></div>
+                        <p>My other non-coding interests include traveling, music, movies, video games, sports and writing.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="success">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <br /><h2>Skills</h2><hr>
+                <div class="icons"><i class="fa fa-code" aria-hidden="true"></i></div>
+                <p>HTML5, CSS3, JavaScript, jQuery, Sass, Bootstrap, Wordpress, Git</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/pomodoro-clock.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/calculator.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/tic-tac-toe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/wikipedia-viewer.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/local-weather-app.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/twitch-channel-app.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/random-quote-generator.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/the-corner-room.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/leonard-and-associates.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-lg-12">
+                        <h3>Find Me Online</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/wildlifehexagon" target="_blank" class="btn-social btn-outline"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/erichartline" target="_blank" class="btn-social btn-outline"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/wildlifehexagon" target="_blank" class="btn-social btn-outline"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.freecodecamp.com/wildlifehexagon" target="_blank" class="btn-social btn-outline"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:hartline.eric@gmail.com" class="btn-social btn-outline"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Eric Hartline 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pomodoro Clock</h2>
+                            <hr>
+                            <img src="img/pomodoro-clock.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="https://wildlifehexagon.github.io/portfolio/pomodoro-clock/" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>JavaScript, jQuery, CSS3, HTML5, Bootstrap</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Electronic Calculator</h2>
+                            <hr>
+                            <img src="img/calculator.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="https://wildlifehexagon.github.io/portfolio/javascript-calculator/" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>JavaScript, jQuery, CSS3, HTML5, Bootstrap</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tic-Tac-Toe</h2>
+                            <hr>
+                            <img src="img/tic-tac-toe.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="https://wildlifehexagon.github.io/portfolio/tic-tac-toe/" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>JavaScript, jQuery, CSS3, HTML5, Bootstrap</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Wikipedia Search App</h2>
+                            <hr>
+                            <img src="img/wikipedia-viewer.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="https://wildlifehexagon.github.io/portfolio/wikipedia-viewer/" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>JavaScript, jQuery, CSS3, HTML5, Bootstrap</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Local Weather App</h2>
+                            <hr>
+                            <img src="img/local-weather-app.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="https://wildlifehexagon.github.io/portfolio/local-weather-app/" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>JavaScript, jQuery, CSS3, HTML5, Bootstrap</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Twitch.tv Channel App</h2>
+                            <hr>
+                            <img src="img/twitch-channel-app.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="https://wildlifehexagon.github.io/portfolio/twitchtv-channel-app/" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>JavaScript, jQuery, CSS3, HTML5, Bootstrap</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Random Quote Generator</h2>
+                            <hr>
+                            <img src="img/random-quote-generator.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="https://wildlifehexagon.github.io/portfolio/random-quote-generator/" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>JavaScript, jQuery, CSS3, HTML5, Bootstrap</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>The Corner Room Website</h2>
+                            <hr>
+                            <img src="img/the-corner-room.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="http://www.thecornerroom.net" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>Bootstrap, CSS3, HTML5</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Leonard & Associates Website</h2>
+                            <hr>
+                            <img src="img/img/leonard-and-associates.png" class="img-responsive img-centered" alt="">
+                            <p><strong><a href="http://www.erichartline.net/wordpress" target="_blank">LIVE DEMO</a></strong></p>
+                            <p>ADD DESCRIPTION HERE!</p>
+                            <p>Built With: <strong>Wordpress, CSS3, HTML5</strong></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/creative.min.js"></script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script src="js/template.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-78846052-1', 'auto');
-  ga('send', 'pageview');
-
-	</script>
+    ga('create', 'UA-78846052-1', 'auto');
+    ga('send', 'pageview');
+    </script>
 </body>
-
 </html>
